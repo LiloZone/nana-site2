@@ -4,6 +4,21 @@
 @import url(../css/slick.css);
 @import url(../css/slick-theme.css);
 @import url(../css/framework.css);
+
+@font-face {
+	font-family: Gill-Light;
+	src: url("../fonts/GillSansMTPro-Light.otf");
+	font-weight: normal;
+}
+@font-face {
+    font-family: Gill-Bold;
+	src: url("../fonts/GillSansMTPro-Bold.otf");
+}
+@font-face {
+    font-family: Peignot;
+	src: url("../fonts/PeignotLTStd-Demi.otf");
+}
+
 /* Blocks layout */
 body {
   font-family: Nunito Sans;
@@ -228,13 +243,13 @@ b, strong {
 
 /* Header 8 */
 .header_8 {
-  background: #121114 url(../i/header_8_bg.jpg) no-repeat 50% 50%;
+  background: #121114 url(../i/nanagif.gif) no-repeat 50% 50%;
   background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
   .header_8 {
-    background-image: url(../i/header_8_bg_2x.jpg);
+    background-image: url(../i/nanagif.gif);
   }
 }
 
@@ -659,7 +674,7 @@ b, strong {
 
 .navigation_13 .link:hover {
   opacity: 1;
-  border-bottom-color: #ff0000;
+  border-bottom-color: #633122;
 }
 
 /* Navigation 14 */
