@@ -9197,10 +9197,13 @@
   font-family: Nunito; }
 
 .font_first {
-  font-family: Nunito Sans; }
+  font-family: Peignot; }
 
 .font_second {
-  font-family: Nunito; }
+  font-family: Gill-Bold; }
+
+.font_light {
+  font-family: Gill-Light; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -9300,6 +9303,12 @@
     color: #ffffff;
     opacity: 0.7; }
 
+.brown {
+  color: #633122;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+
 .blue {
   color: #2b48e7; }
   .blue.link {
@@ -9310,7 +9319,7 @@
       color: #102dce; }
 
 .green {
-  color: #18c967; }
+  color: #00ac9f; }
   .green.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9319,7 +9328,7 @@
       color: #0cb658; }
 
 .red {
-  color: #ff0000; }
+  color: #e85127; }
   .red.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9337,7 +9346,7 @@
       color: #ff0000; }
 
 .pink {
-  color: #ea4c89; }
+  color: #ffaf96; }
   .pink.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9355,7 +9364,7 @@
       color: #95a5a6; }
 
 .light_gray {
-  color: #e7e7e7; }
+  color: #e6e6e6; }
   .light_gray.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
