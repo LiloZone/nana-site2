@@ -243,13 +243,14 @@ b, strong {
 
 /* Header 8 */
 .header_8 {
-  background: #121114 url(../i/nana_gif.gif) no-repeat 50% 50%;
+  background: #121114 url(../i/nana_gif4-3.gif) no-repeat 50% 50%;
   background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
   .header_8 {
-    background-image: url(../i/nana_gif.gif);
+    background-image: url(../i/nana_gif4-3.gif);
+    background-size: contain    ;
   }
 }
 
